@@ -1,3 +1,6 @@
 [submodule "lab"]
 	path = lab
 	url = https://github.com/NJU-ProjectN/os-workbench-2022
+[submodule "my-devcontainers"]
+	path = my-devcontainers
+	url = git@github.com:paprikaw/my-devcontainers.git
