@@ -1,0 +1,460 @@
+[58 ms] Dev Containers 0.266.1 in VS Code 1.74.2 (e8a3071ea4344d9d48ef8a4df2c097372b0c5161).
+[58 ms] Start: Resolving Remote
+[66 ms] Setting up container for folder or workspace: /Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[70 ms] Start: Check Docker is running
+[70 ms] Start: Run: docker version --format {{.Server.APIVersion}}
+[143 ms] Server API version: 1.41
+[143 ms] Start: Run: docker volume ls -q
+[234 ms] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --filter label=vsch.quality=stable
+[296 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[358 ms] Start: Run: docker inspect --type container 47987166ceee
+[419 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/ericwhite/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[714 ms] (node:37314) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[715 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[716 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[716 ms] Start: Run: docker buildx version
+[1035 ms] github.com/docker/buildx v0.9.1 ed00243a0ce2a0aee75311b06e32d33b44729689
+[1035 ms] 
+[1035 ms] Start: Resolving Remote
+[1038 ms] Start: Run: git rev-parse --show-cdup
+[1053 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[1129 ms] Start: Run: docker inspect --type container 47987166ceee
+[1209 ms] Start: Inspecting container
+[1209 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1302 ms] Start: Run in container: /bin/sh
+[1304 ms] Start: Run in container: uname -m
+[1468 ms] x86_64
+[1468 ms] 
+[1469 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[1476 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[1477 ms] 
+[1477 ms] Start: Run in container: cat /etc/passwd
+[1481 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[1499 ms] 
+[1499 ms] 
+[1499 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[1502 ms] 
+[1502 ms] 
+[1509 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1603 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --mount-workspace-git-root true
+[1943 ms] (node:37398) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[1943 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[1946 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[1946 ms] Start: Run: git rev-parse --show-cdup
+[1973 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2062 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root true
+[2379 ms] (node:37420) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[2380 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[2382 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[2382 ms] Start: Run: git rev-parse --show-cdup
+[2402 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2492 ms] Start: Inspecting container
+[2492 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2583 ms] Start: Run in container: /bin/sh
+[2584 ms] Start: Run in container: uname -m
+[2766 ms] x86_64
+[2766 ms] 
+[2766 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2770 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[2770 ms] 
+[2771 ms] Start: Run in container: cat /etc/passwd
+[2774 ms] Start: Setup shutdown monitor
+[2775 ms] Forking shutdown monitor: /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/shutdown/shutdownMonitorProcess /var/folders/lq/5p9cvh4975b5h5_9jdmckpym0000gn/T/vscode-remote-containers-1631e18c19b6787eda925cd0882b54e860c39936.sock singleContainer Debug /Users/ericwhite/Library/Application Support/Code/logs/20230112T104328/window1/exthost/ms-vscode-remote.remote-containers 1673492204181
+[2777 ms] Start: Run in container: test -d /home/vscode/.vscode-server
+[2779 ms] 
+[2780 ms] 
+[2780 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2783 ms] 
+[2783 ms] 
+[2783 ms] Exit code 1
+[2784 ms] Start: Run in container: cat /home/vscode/.vscode-server/data/Machine/settings.json
+[2789 ms] 
+[2789 ms] cat: /home/vscode/.vscode-server/data/Machine/settings.json: No such file or directory
+[2789 ms] Exit code 1
+[2789 ms] Start: Run in container: test -d /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2793 ms] 
+[2793 ms] 
+[2793 ms] Start: Run in container: test -d /vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2796 ms] 
+[2796 ms] 
+[2796 ms] Start: Run in container: /bin/sh
+[2797 ms] Start: Launching Dev Containers helper.
+[2798 ms] Start: Run in container: touch '/vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[2798 ms] ssh-agent: SSH_AUTH_SOCK in container (/tmp/vscode-ssh-auth-bae821cc70a60bfe0fcd0518a44a65a2d996697e.sock) forwarded to local host (/private/tmp/com.apple.launchd.mybIeGRxe6/Listeners).
+[2798 ms] Start: Run: gpgconf --list-dir agent-extra-socket
+[2802 ms] Start: Run in container: /bin/sh
+[2803 ms] userEnvProbe: loginInteractiveShell (default)
+[2804 ms] Start: Run in container: echo ~
+[2804 ms] userEnvProbe shell: /bin/bash
+[2805 ms] Start: Run in container: # Test for /home/vscode/.ssh/known_hosts and ssh
+[2819 ms] /home/vscode/.ssh/known_hosts exists
+[2819 ms] 
+[2819 ms] Exit code 1
+[3009 ms] /home/vscode
+[3009 ms] 
+[3009 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js
+[3013 ms] 
+[3013 ms] 
+[3013 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js_1673492207194
+[3034 ms] 
+[3034 ms] 
+[3068 ms] 
+[3068 ms] 
+[3069 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3073 ms] 
+[3073 ms] 
+[3074 ms] Start: Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd ; readlink /proc/$pid/ns/mnt ; cat /proc/$pid/stat | tr "
+[3152 ms] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin'
+Container: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[3177 ms] Extension host agent is already running.
+[3177 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.devport-e8a3071ea4344d9d48ef8a4df2c097372b0c5161' 2>/dev/null
+[3180 ms] 37859
+[3180 ms] 
+[3180 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.connection-token-e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[3184 ms] 436ebf65-7cce-4116-9001-924ee1ee043c
+[3184 ms] 
+[3184 ms] Port forwarding for container port 37859 starts listening on local port.
+[3185 ms] Port forwarding local port 37859 to container port 37859
+[3191 ms] Start: Run in container: # Test for /home/vscode/.gitconfig and git
+[3196 ms] /home/vscode/.gitconfig exists
+[3196 ms] 
+[3196 ms] Exit code 1
+[3197 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3202 ms] 
+[3202 ms] 
+[3204 ms] Port forwarding connection from 61918 > 37859 > 37859 in the container.
+[3204 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3486 ms] Port forwarding 61918 > 37859 > 37859 stderr: Connection established
+[3499 ms] Port forwarding connection from 61922 > 37859 > 37859 in the container.
+[3499 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3691 ms] Port forwarding 61922 > 37859 > 37859 stderr: Connection established
+[58 ms] Dev Containers 0.266.1 in VS Code 1.74.2 (e8a3071ea4344d9d48ef8a4df2c097372b0c5161).
+[58 ms] Start: Resolving Remote
+[66 ms] Setting up container for folder or workspace: /Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[70 ms] Start: Check Docker is running
+[70 ms] Start: Run: docker version --format {{.Server.APIVersion}}
+[143 ms] Server API version: 1.41
+[143 ms] Start: Run: docker volume ls -q
+[234 ms] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --filter label=vsch.quality=stable
+[296 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[358 ms] Start: Run: docker inspect --type container 47987166ceee
+[419 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/ericwhite/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[714 ms] (node:37314) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[715 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[716 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[716 ms] Start: Run: docker buildx version
+[1035 ms] github.com/docker/buildx v0.9.1 ed00243a0ce2a0aee75311b06e32d33b44729689
+[1035 ms] 
+[1035 ms] Start: Resolving Remote
+[1038 ms] Start: Run: git rev-parse --show-cdup
+[1053 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[1129 ms] Start: Run: docker inspect --type container 47987166ceee
+[1209 ms] Start: Inspecting container
+[1209 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1302 ms] Start: Run in container: /bin/sh
+[1304 ms] Start: Run in container: uname -m
+[1468 ms] x86_64
+[1468 ms] 
+[1469 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[1476 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[1477 ms] 
+[1477 ms] Start: Run in container: cat /etc/passwd
+[1481 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[1499 ms] 
+[1499 ms] 
+[1499 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[1502 ms] 
+[1502 ms] 
+[1509 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1603 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --mount-workspace-git-root true
+[1943 ms] (node:37398) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[1943 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[1946 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[1946 ms] Start: Run: git rev-parse --show-cdup
+[1973 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2062 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root true
+[2379 ms] (node:37420) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[2380 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[2382 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[2382 ms] Start: Run: git rev-parse --show-cdup
+[2402 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2492 ms] Start: Inspecting container
+[2492 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2583 ms] Start: Run in container: /bin/sh
+[2584 ms] Start: Run in container: uname -m
+[2766 ms] x86_64
+[2766 ms] 
+[2766 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2770 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[2770 ms] 
+[2771 ms] Start: Run in container: cat /etc/passwd
+[2774 ms] Start: Setup shutdown monitor
+[2775 ms] Forking shutdown monitor: /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/shutdown/shutdownMonitorProcess /var/folders/lq/5p9cvh4975b5h5_9jdmckpym0000gn/T/vscode-remote-containers-1631e18c19b6787eda925cd0882b54e860c39936.sock singleContainer Debug /Users/ericwhite/Library/Application Support/Code/logs/20230112T104328/window1/exthost/ms-vscode-remote.remote-containers 1673492204181
+[2777 ms] Start: Run in container: test -d /home/vscode/.vscode-server
+[2779 ms] 
+[2780 ms] 
+[2780 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2783 ms] 
+[2783 ms] 
+[2783 ms] Exit code 1
+[2784 ms] Start: Run in container: cat /home/vscode/.vscode-server/data/Machine/settings.json
+[2789 ms] 
+[2789 ms] cat: /home/vscode/.vscode-server/data/Machine/settings.json: No such file or directory
+[2789 ms] Exit code 1
+[2789 ms] Start: Run in container: test -d /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2793 ms] 
+[2793 ms] 
+[2793 ms] Start: Run in container: test -d /vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2796 ms] 
+[2796 ms] 
+[2796 ms] Start: Run in container: /bin/sh
+[2797 ms] Start: Launching Dev Containers helper.
+[2798 ms] Start: Run in container: touch '/vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[2798 ms] ssh-agent: SSH_AUTH_SOCK in container (/tmp/vscode-ssh-auth-bae821cc70a60bfe0fcd0518a44a65a2d996697e.sock) forwarded to local host (/private/tmp/com.apple.launchd.mybIeGRxe6/Listeners).
+[2798 ms] Start: Run: gpgconf --list-dir agent-extra-socket
+[2802 ms] Start: Run in container: /bin/sh
+[2803 ms] userEnvProbe: loginInteractiveShell (default)
+[2804 ms] Start: Run in container: echo ~
+[2804 ms] userEnvProbe shell: /bin/bash
+[2805 ms] Start: Run in container: # Test for /home/vscode/.ssh/known_hosts and ssh
+[2819 ms] /home/vscode/.ssh/known_hosts exists
+[2819 ms] 
+[2819 ms] Exit code 1
+[3009 ms] /home/vscode
+[3009 ms] 
+[3009 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js
+[3013 ms] 
+[3013 ms] 
+[3013 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js_1673492207194
+[3034 ms] 
+[3034 ms] 
+[3068 ms] 
+[3068 ms] 
+[3069 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3073 ms] 
+[3073 ms] 
+[3074 ms] Start: Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd ; readlink /proc/$pid/ns/mnt ; cat /proc/$pid/stat | tr "
+[3152 ms] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin'
+Container: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[3177 ms] Extension host agent is already running.
+[3177 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.devport-e8a3071ea4344d9d48ef8a4df2c097372b0c5161' 2>/dev/null
+[3180 ms] 37859
+[3180 ms] 
+[3180 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.connection-token-e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[3184 ms] 436ebf65-7cce-4116-9001-924ee1ee043c
+[3184 ms] 
+[3184 ms] Port forwarding for container port 37859 starts listening on local port.
+[3185 ms] Port forwarding local port 37859 to container port 37859
+[3191 ms] Start: Run in container: # Test for /home/vscode/.gitconfig and git
+[3196 ms] /home/vscode/.gitconfig exists
+[3196 ms] 
+[3196 ms] Exit code 1
+[3197 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3202 ms] 
+[3202 ms] 
+[3204 ms] Port forwarding connection from 61918 > 37859 > 37859 in the container.
+[3204 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3486 ms] Port forwarding 61918 > 37859 > 37859 stderr: Connection established
+[3499 ms] Port forwarding connection from 61922 > 37859 > 37859 in the container.
+[3499 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3691 ms] Port forwarding 61922 > 37859 > 37859 stderr: Connection established
+[58 ms] Dev Containers 0.266.1 in VS Code 1.74.2 (e8a3071ea4344d9d48ef8a4df2c097372b0c5161).
+[58 ms] Start: Resolving Remote
+[66 ms] Setting up container for folder or workspace: /Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[70 ms] Start: Check Docker is running
+[70 ms] Start: Run: docker version --format {{.Server.APIVersion}}
+[143 ms] Server API version: 1.41
+[143 ms] Start: Run: docker volume ls -q
+[234 ms] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --filter label=vsch.quality=stable
+[296 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[358 ms] Start: Run: docker inspect --type container 47987166ceee
+[419 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /Users/ericwhite/Library/Application Support/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --workspace-mount-consistency cached --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true
+[714 ms] (node:37314) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[715 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[716 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[716 ms] Start: Run: docker buildx version
+[1035 ms] github.com/docker/buildx v0.9.1 ed00243a0ce2a0aee75311b06e32d33b44729689
+[1035 ms] 
+[1035 ms] Start: Resolving Remote
+[1038 ms] Start: Run: git rev-parse --show-cdup
+[1053 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example
+[1129 ms] Start: Run: docker inspect --type container 47987166ceee
+[1209 ms] Start: Inspecting container
+[1209 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1302 ms] Start: Run in container: /bin/sh
+[1304 ms] Start: Run in container: uname -m
+[1468 ms] x86_64
+[1468 ms] 
+[1469 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[1476 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[1477 ms] 
+[1477 ms] Start: Run in container: cat /etc/passwd
+[1481 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[1499 ms] 
+[1499 ms] 
+[1499 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[1502 ms] 
+[1502 ms] 
+[1509 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[1603 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --mount-workspace-git-root true
+[1943 ms] (node:37398) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[1943 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[1946 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[1946 ms] Start: Run: git rev-parse --show-cdup
+[1973 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2062 ms] Start: Run: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --ms-enable-electron-run-as-node /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/ericwhite/Projects/MyTutorial/NJU_OS/example --id-label devcontainer.local_folder=/Users/ericwhite/Projects/MyTutorial/NJU_OS/example --container-id 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7 --log-level debug --log-format json --config /Users/ericwhite/Projects/MyTutorial/NJU_OS/example/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root true
+[2379 ms] (node:37420) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[2380 ms] (Use `Code Helper --trace-deprecation ...` to show where the warning was created)
+[2382 ms] @devcontainers/cli 0.25.2. Node.js v16.14.2. darwin 21.6.0 x64.
+[2382 ms] Start: Run: git rev-parse --show-cdup
+[2402 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2492 ms] Start: Inspecting container
+[2492 ms] Start: Run: docker inspect --type container 47987166ceee5b70cbfc97f6e852fd173d1dc21106353147617ee928de7de7f7
+[2583 ms] Start: Run in container: /bin/sh
+[2584 ms] Start: Run in container: uname -m
+[2766 ms] x86_64
+[2766 ms] 
+[2766 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2770 ms] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[2770 ms] 
+[2771 ms] Start: Run in container: cat /etc/passwd
+[2774 ms] Start: Setup shutdown monitor
+[2775 ms] Forking shutdown monitor: /Users/ericwhite/.vscode/extensions/ms-vscode-remote.remote-containers-0.266.1/dist/shutdown/shutdownMonitorProcess /var/folders/lq/5p9cvh4975b5h5_9jdmckpym0000gn/T/vscode-remote-containers-1631e18c19b6787eda925cd0882b54e860c39936.sock singleContainer Debug /Users/ericwhite/Library/Application Support/Code/logs/20230112T104328/window1/exthost/ms-vscode-remote.remote-containers 1673492204181
+[2777 ms] Start: Run in container: test -d /home/vscode/.vscode-server
+[2779 ms] 
+[2780 ms] 
+[2780 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2783 ms] 
+[2783 ms] 
+[2783 ms] Exit code 1
+[2784 ms] Start: Run in container: cat /home/vscode/.vscode-server/data/Machine/settings.json
+[2789 ms] 
+[2789 ms] cat: /home/vscode/.vscode-server/data/Machine/settings.json: No such file or directory
+[2789 ms] Exit code 1
+[2789 ms] Start: Run in container: test -d /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2793 ms] 
+[2793 ms] 
+[2793 ms] Start: Run in container: test -d /vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+[2796 ms] 
+[2796 ms] 
+[2796 ms] Start: Run in container: /bin/sh
+[2797 ms] Start: Launching Dev Containers helper.
+[2798 ms] Start: Run in container: touch '/vscode/vscode-server/bin/linux-x64/e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[2798 ms] ssh-agent: SSH_AUTH_SOCK in container (/tmp/vscode-ssh-auth-bae821cc70a60bfe0fcd0518a44a65a2d996697e.sock) forwarded to local host (/private/tmp/com.apple.launchd.mybIeGRxe6/Listeners).
+[2798 ms] Start: Run: gpgconf --list-dir agent-extra-socket
+[2802 ms] Start: Run in container: /bin/sh
+[2803 ms] userEnvProbe: loginInteractiveShell (default)
+[2804 ms] Start: Run in container: echo ~
+[2804 ms] userEnvProbe shell: /bin/bash
+[2805 ms] Start: Run in container: # Test for /home/vscode/.ssh/known_hosts and ssh
+[2819 ms] /home/vscode/.ssh/known_hosts exists
+[2819 ms] 
+[2819 ms] Exit code 1
+[3009 ms] /home/vscode
+[3009 ms] 
+[3009 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js
+[3013 ms] 
+[3013 ms] 
+[3013 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js' >/tmp/vscode-remote-containers-server-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js_1673492207194
+[3034 ms] 
+[3034 ms] 
+[3068 ms] 
+[3068 ms] 
+[3069 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3073 ms] 
+[3073 ms] 
+[3074 ms] Start: Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd ; readlink /proc/$pid/ns/mnt ; cat /proc/$pid/stat | tr "
+[3152 ms] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin'
+Container: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[3177 ms] Extension host agent is already running.
+[3177 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.devport-e8a3071ea4344d9d48ef8a4df2c097372b0c5161' 2>/dev/null
+[3180 ms] 37859
+[3180 ms] 
+[3180 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.connection-token-e8a3071ea4344d9d48ef8a4df2c097372b0c5161'
+[3184 ms] 436ebf65-7cce-4116-9001-924ee1ee043c
+[3184 ms] 
+[3184 ms] Port forwarding for container port 37859 starts listening on local port.
+[3185 ms] Port forwarding local port 37859 to container port 37859
+[3191 ms] Start: Run in container: # Test for /home/vscode/.gitconfig and git
+[3196 ms] /home/vscode/.gitconfig exists
+[3196 ms] 
+[3196 ms] Exit code 1
+[3197 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node /tmp/vscode-remote-containers-bae821cc70a60bfe0fcd0518a44a65a2d996697e.js $*; }; f' || true
+[3202 ms] 
+[3202 ms] 
+[3204 ms] Port forwarding connection from 61918 > 37859 > 37859 in the container.
+[3204 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3486 ms] Port forwarding 61918 > 37859 > 37859 stderr: Connection established
+[3499 ms] Port forwarding connection from 61922 > 37859 > 37859 in the container.
+[3499 ms] Start: Run in container: /home/vscode/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node -e 
+[3691 ms] Port forwarding 61922 > 37859 > 37859 stderr: Connection established
+
