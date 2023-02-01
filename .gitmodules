@@ -7,3 +7,6 @@
 [submodule "abstract-machine"]
 	path = abstract-machine
 	url = git@github.com:paprikaw/abstract-machine.git
+[submodule "am-kernels"]
+	path = am-kernels
+	url = git@github.com:paprikaw/am-kernels.git
