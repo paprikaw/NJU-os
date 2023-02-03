@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+# 这个脚本对make的结果进行处理，最后呈现一个可读的版本
+# 参考: http://jyywiki.cn/OS/2022/labs/L1
+
+make ARCH=x86_64-qemu -nB \
+  | grep -ve '^\(\#\|echo\|mkdir\|make\)' \
+  | sed "s#$AM_HOME#\$AM_HOME#g" \
+  | sed "s#$PWD#.#g" \
+  | vi -
+
+# 并且在 Vim 里做一些你舒适的文本处理，例如
+# :%s/^/\r 在命令之间插入空行；
+# :%s/ /\r /g 将命令的参数缩进排版……你很快就会得到 “可读” 
+

@@ -1,9 +1,10 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "files.associations": {
         "klib-macros.h": "c",
-        "stdarg.h": "c",
-        "thread": "c",
-        "setjmp.h": "c"
+        "klib.h": "c",
+        "am.h": "c",
+        "stdbool.h": "c",
+        "stddef.h": "c",
+        "stdint.h": "c"
     }
 }

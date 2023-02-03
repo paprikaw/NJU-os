@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${AM_HOME}/**"
+            ],
+            "defines": [
+                "__ARCH__=x86_64-qemu",
+                "__ISA_X86_64__",
+                "__ARCH_X86_64_QEMU",
+                "__ISA__=\"x86_64\"",
+                "__PLATFORM__=qemu",
+                "__PLATFORM_QEMU",
+                "ARCH_H=\"arch/x86_64-qemu.h\""
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
