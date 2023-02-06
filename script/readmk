@@ -2,7 +2,7 @@
 # 这个脚本对make的结果进行处理，最后呈现一个可读的版本
 # 参考: http://jyywiki.cn/OS/2022/labs/L1
 
-make ARCH=x86_64-qemu -nB \
+make ARCH=x86_64-qemu run -nB \
   | grep -ve '^\(\#\|echo\|mkdir\|make\)' \
   | sed "s#$AM_HOME#\$AM_HOME#g" \
   | sed "s#$PWD#.#g" \

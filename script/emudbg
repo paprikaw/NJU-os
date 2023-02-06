@@ -2,12 +2,16 @@
 
 # qemu manual: https://www.qemu.org/docs/master/system/qemu-manpage.html
 ARCH=x86_64-qemu
+
 # -S: Do not start cpu at startup 
 # -s: Shorthand for -gdb tcp::1234
 qemu-system-x86_64 \
 -S -s \
--drive format=raw,file=build/thread-os-$ARCH \
+-drive format=raw,file=./build/thread-os-$ARCH \
+-machine accel=tcg \
+-smp "" \
 -serial none & # \
 # -nographic &
+# qemu-system-x86_64 -serial mon:stdio -machine accel=tcg -smp "" -drive format=raw,file=./build/thread-os-x86_64-qemu 
 
 gdb -x /workspaces/NJU_OS/script/emu.gdb; kill -9 $!

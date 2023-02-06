@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+# qemu manual: https://www.qemu.org/docs/master/system/qemu-manpage.html
+ARCH=x86_64-qemu
+
+# -S: Do not start cpu at startup 
+# -s: Shorthand for -gdb tcp::1234
+qemu-system-x86_64 \
+-S \
+-drive format=raw,file=build/thread-os-$ARCH \
+-serial none \
+-nographic 

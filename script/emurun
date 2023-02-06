@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+qemu-system-x86_64 \
+-serial mon:stdio \
+-machine accel=tcg \
+-smp "" \
+-drive format=raw,file=./build/thread-os-x86_64-qemu

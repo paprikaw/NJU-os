@@ -5,6 +5,13 @@
         "am.h": "c",
         "stdbool.h": "c",
         "stddef.h": "c",
-        "stdint.h": "c"
+        "stdint.h": "c",
+        "common.h": "c",
+        "kernel.h": "c",
+        "stdint-gcc.h": "c",
+        "*.tcc": "c",
+        "thread.h": "c",
+        "pthread.h": "c",
+        "typeinfo": "c"
     }
 }
