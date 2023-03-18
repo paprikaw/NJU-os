@@ -12,6 +12,9 @@
         "*.tcc": "c",
         "thread.h": "c",
         "pthread.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "amdev.h": "c",
+        "unistd.h": "c",
+        "assert.h": "c"
     }
 }
