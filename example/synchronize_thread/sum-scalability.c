@@ -2,7 +2,7 @@
 #include "../thread_lib/thread-sync.h"
 
 #define N 10000000
-spinlock_t lock = SPIN_INIT();
+  spinlock_t lock = SPIN_INIT();
 
 long n, sum = 0;
 
