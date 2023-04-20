@@ -1,0 +1,13 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I",
+      "/usr/local/include",
+      "rv32ima.c"
+    ],
+    "directory": "/Users/ericwhite/Projects/MyTutorial/NJU_OS/example/interupt/ricv-emu",
+    "file": "/Users/ericwhite/Projects/MyTutorial/NJU_OS/example/interupt/ricv-emu/rv32ima.c"
+  }
+]

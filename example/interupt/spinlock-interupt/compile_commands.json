@@ -1,0 +1,35 @@
+[
+    {
+        "arguments": [
+            "x86_64-linux-gnu-gcc",
+            "-c",
+            "-std=gnu11",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/workspaces/NJU_OS/example/interupt/spinlock-interupt/include",
+            "-I/workspaces/NJU_OS/os-workbench/abstract-machine/am/include/",
+            "-I/workspaces/NJU_OS/os-workbench/abstract-machine/klib/include/",
+            "-D__ISA__=\"x86_64\"",
+            "-D__ISA_X86_64__",
+            "-D__ARCH__=x86_64-qemu",
+            "-D__ARCH_X86_64_QEMU",
+            "-D__PLATFORM__=qemu",
+            "-D__PLATFORM_QEMU",
+            "-DARCH_H=\"arch/x86_64-qemu.h\"",
+            "-fno-asynchronous-unwind-tables",
+            "-fno-builtin",
+            "-fno-stack-protector",
+            "-Wno-main",
+            "-U_FORTIFY_SOURCE",
+            "-m64",
+            "-fPIC",
+            "-mno-sse",
+            "-o",
+            "/workspaces/NJU_OS/example/interupt/spinlock-interupt/build/x86_64-qemu/./spinlock.o",
+            "spinlock.c"
+        ],
+        "directory": "/workspaces/NJU_OS/example/interupt/spinlock-interupt",
+        "file": "spinlock.c"
+    }
+]
