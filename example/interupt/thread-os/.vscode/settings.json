@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "klib-macros.h": "c",
+        "am.h": "c",
+        "stdbool.h": "c",
+        "thread": "c",
+        "string_view": "c",
+        "tasks.h": "c"
+    }
+}

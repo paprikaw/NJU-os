@@ -1,0 +1,11 @@
+define hook-quit
+  kill
+end
+
+# Connect to remote
+target remote localhost:1234
+set architecture i386:x86-64 
+file build/kernel-x86_64-qemu.elf 
+break main 
+layout src
+continue
